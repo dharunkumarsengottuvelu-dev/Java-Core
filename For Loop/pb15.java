@@ -43,5 +43,7 @@ public class pb15 {
         System.out.println("Fail count: "+fail);
         System.out.println("Class Avgerage: "+sum/n);
         System.out.println("Highest Score: "+max);
+
+        sc.close();
     }
 }
