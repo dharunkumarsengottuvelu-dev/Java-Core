@@ -1,4 +1,3 @@
-package forloop;
 import java.util.Scanner;
 public class pb3 {
     public static void main(String[] args) {

@@ -1,38 +1,45 @@
-#include <stdio.h>
+import java.util.Scanner;
 
-int main() {
-    int N;
-    scanf("%d", &N);
+public class pb10 {
+    public static void main(String[] args) {
 
-    char itemName[50];
-    double price;
-    int quantity;
+        Scanner sc = new Scanner(System.in);
 
-    double subtotal = 0;
-    int totalItems = 0;
+        int N = sc.nextInt();
 
-    for(int i = 0; i < N; i++) {
-        scanf("%s %lf %d", itemName, &price, &quantity);
+        String itemName;
+        double price;
+        int quantity;
 
-        double itemTotal = price * quantity;
+        double subtotal = 0;
+        int totalItems = 0;
 
-        printf("Item: %s\n", itemName);
-        printf("Price: $%.1lf x %d\n", price, quantity);
-        printf("Subtotal: $%.1lf\n\n", itemTotal);
+        for (int i = 0; i < N; i++) {
 
-        subtotal += itemTotal;
-        totalItems += quantity;
+            itemName = sc.next();
+            price = sc.nextDouble();
+            quantity = sc.nextInt();
+
+            double itemTotal = price * quantity;
+
+            System.out.println("Item: " + itemName);
+            System.out.printf("Price: $%.1f x %d\n", price, quantity);
+            System.out.printf("Subtotal: $%.1f\n\n", itemTotal);
+
+            subtotal += itemTotal;
+            totalItems += quantity;
+        }
+
+        double tax = subtotal * 0.08;
+        double serviceCharge = subtotal * 0.10;
+        double grandTotal = subtotal + tax + serviceCharge;
+
+        System.out.println("Total Items: " + totalItems);
+        System.out.printf("Subtotal: $%.1f\n", subtotal);
+        System.out.printf("Tax (8%%): $%.2f\n", tax);
+        System.out.printf("Service Charge (10%%): $%.2f\n", serviceCharge);
+        System.out.printf("Grand Total: $%.2f\n", grandTotal);
+
+        sc.close();
     }
-
-    double tax = subtotal * 0.08;
-    double serviceCharge = subtotal * 0.10;
-    double grandTotal = subtotal + tax + serviceCharge;
-
-    printf("Total Items: %d\n", totalItems);
-    printf("Subtotal: $%.1lf\n", subtotal);
-    printf("Tax (8%%): $%.2lf\n", tax);
-    printf("Service Charge (10%%): $%.2lf\n", serviceCharge);
-    printf("Grand Total: $%.2lf\n", grandTotal);
-
-    return 0;
 }
