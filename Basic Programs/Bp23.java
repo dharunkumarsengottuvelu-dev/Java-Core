@@ -22,7 +22,7 @@ public class Bp23 {
 
         System.out.print("Cargo Revenue : ");
         System.out.println(res3);
-
+        sc.close();
     }
     
 }

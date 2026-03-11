@@ -19,7 +19,7 @@ public class Bp20 {
         System.out.print("Final Youtube Income : ");
         System.out.println(res3);
 
-
+        sc.close();
     }
     
 }

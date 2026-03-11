@@ -41,5 +41,6 @@ public class pb6 {
         System.out.println("Failed Withdrawals: "+fail);
         System.out.println("Final Balance: $"+balance);
         System.out.println("Total Withdrawn: $"+sum);
+        sc.close();
     }
 }

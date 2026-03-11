@@ -32,6 +32,6 @@ public class pb1 {
         System.out.println("Total Employees Processed:"+sum);
         System.out.println("Total Payroll: $"+total);
         System.out.println("Average Salary: $"+avg);
-        
+        sc.close();
     }
 }

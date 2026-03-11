@@ -4,7 +4,7 @@ public class Bp13 {
     public static void main(String[] args) {
         
     
-   {
+   
         Scanner sc = new Scanner(System.in);
 
         int yield = sc.nextInt();
@@ -17,7 +17,8 @@ public class Bp13 {
 
         System.out.print("Marketable Yield :");
         System.out.println(res1);
-    }
+    
+        sc.close();
     
     }
 }

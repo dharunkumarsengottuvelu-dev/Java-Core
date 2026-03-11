@@ -16,6 +16,7 @@ public class Bp7 {
         System.out.print("Final Weekly Wages = ");
         System.out.println(deduct);
 
+        sc.close();
 
     }
     

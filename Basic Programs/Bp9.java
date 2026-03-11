@@ -16,6 +16,8 @@ public class Bp9 {
 
         System.out.print("Payable Amount = ");
         System.out.println(result3);
+
+        sc.close();
     }
     
 }

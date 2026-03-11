@@ -23,7 +23,7 @@ public class Bp25 {
         System.out.print("Net Water Revenue is : ");
         System.out.println(res3);
 
-
+        sc.close();
     }
     
 }

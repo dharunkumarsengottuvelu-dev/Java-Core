@@ -56,5 +56,7 @@ public class pb13 {
         System.out.println("Total Fines Collected : $"+sum);
         System.out.println("Books Overdue: "+count);
         System.out.println("Average Fine: $"+(sum/n));
+
+        sc.close();
     }
 }

@@ -18,6 +18,6 @@ public class Bp15 {
         System.out.print("Total Revenue : ");
         System.out.println(res);
 
-        
+        sc.close();
     }
 }

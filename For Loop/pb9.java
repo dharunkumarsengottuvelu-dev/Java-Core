@@ -55,6 +55,7 @@ public class pb9 {
     System.out.println("Total Calories Burned: "+total1);
     System.out.println("Average Calories per Session: "+total1/n);
     System.out.println("Fitness Level:"+fitness);
+    sc.close();
     }
     
 }

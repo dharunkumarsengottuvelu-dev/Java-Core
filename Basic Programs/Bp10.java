@@ -15,6 +15,8 @@ public class Bp10 {
 
         System.out.print("Driver Earnings = ");
         System.out.println(result2);
+
+        sc.close();
     }
     
 }

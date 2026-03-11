@@ -20,5 +20,6 @@ public class Bp21 {
 
         System.out.print("Remaining Balance is : ");
         System.out.println(res2);
+        sc.close();
     }   
 }

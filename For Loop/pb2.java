@@ -46,6 +46,7 @@ public class pb2 {
     System.out.println("Highest Score: "+max);
     System.out.println("Students Failed: "+count1);
 
+    sc.close();
 
     }
 }

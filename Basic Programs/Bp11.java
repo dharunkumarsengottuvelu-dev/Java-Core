@@ -17,5 +17,6 @@ public class Bp11 {
         System.out.print("Total Transport Fee = ");
         System.out.println(result3);
 
+        sc.close();
     }
 }

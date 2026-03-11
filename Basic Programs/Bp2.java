@@ -15,7 +15,7 @@ public class Bp2 {
         double total=base+mul;
         double end=total+(total*tax/100);
         System.out.printf("Total Bill = %.2f", end);
-
+        sc.close();
     }
 }
 

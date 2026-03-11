@@ -20,6 +20,8 @@ public class Bp16 {
         
         System.out.print("Net Raliway Revenue is  : ");
         System.out.println(res3);
+
+        sc.close();
     }
     
 }

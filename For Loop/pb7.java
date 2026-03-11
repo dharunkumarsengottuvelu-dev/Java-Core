@@ -36,5 +36,6 @@ public class pb7 {
         System.out.println("Total Units Consumed: "+sum);
         System.out.println("Total Revenue: $"+total);
         System.out.println("Average Bill: $"+total/n);
+        sc.close();
     }
 }

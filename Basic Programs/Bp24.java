@@ -22,7 +22,7 @@ public class Bp24 {
         System.out.print("Remaining Tournament fund is : ");
         System.out.println(res2);
         
-
+        sc.close();
     }
     
 }

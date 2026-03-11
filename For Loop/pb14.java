@@ -35,5 +35,7 @@ public class pb14 {
         System.out.println("Total Distance: "+km+"km");
         System.out.println("Total Revenue: $"+sum);
         System.out.println("Average fare: $"+sum/n);
+
+        sc.close();
     }
 }

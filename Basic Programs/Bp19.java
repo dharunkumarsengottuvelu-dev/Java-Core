@@ -21,6 +21,7 @@ public class Bp19 {
         System.out.print("Net Profit is : ");
         System.out.println(res3);
 
+        sc.close();
     }
     
 }

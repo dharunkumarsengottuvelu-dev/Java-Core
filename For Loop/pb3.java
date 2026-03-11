@@ -49,5 +49,6 @@ public class pb3 {
         System.out.println("Critical items :"+cri);
         System.out.println("Total Reorder Quantity: "+total);
 
+        sc.close();
     }
 }

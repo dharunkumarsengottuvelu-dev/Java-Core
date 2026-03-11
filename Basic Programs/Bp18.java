@@ -21,6 +21,6 @@ public class Bp18 {
         System.out.print("Remaining Fund is :");
         System.out.println(res3);
 
-
+        sc.close();
     }
 }

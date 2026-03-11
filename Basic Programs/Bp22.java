@@ -21,6 +21,6 @@ public class Bp22 {
 
         System.out.print("Publishing Profit is : ");
         System.out.println(res3);
-
+        sc.close();
     }
 }

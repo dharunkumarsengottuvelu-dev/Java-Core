@@ -13,6 +13,7 @@ public class Bp8 {
 
         System.out.print("Usable Rods = ");
         System.out.println(result);
+        sc.close();
     }
     
 }

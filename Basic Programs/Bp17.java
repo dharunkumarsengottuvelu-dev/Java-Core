@@ -20,7 +20,7 @@ public class Bp17 {
         System.out.print("Final Project Cost is : ");
         System.out.println(res3);
 
-
+        sc.close();
     }
     
 }

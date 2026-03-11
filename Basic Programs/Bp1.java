@@ -14,9 +14,8 @@ public class Bp1 {
 
         System.out.println(total);
         
-
-
-        
+        scan.close();
+       
     }
     
      

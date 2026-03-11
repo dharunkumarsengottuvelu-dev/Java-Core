@@ -59,5 +59,7 @@ public class pb12 {
         System.out.println("Eligible Donors: "+count1);
         System.out.println("Rejected Donors: "+count2);
         System.out.println("Eligibility Rate: "+rate+"%");
+
+        sc.close();
     }
 }

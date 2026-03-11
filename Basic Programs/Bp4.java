@@ -18,7 +18,7 @@ public class Bp4 {
         System.out.printf("%.0f",end);
 
 
-
+        sc.close();
 
         
     }

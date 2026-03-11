@@ -19,7 +19,7 @@ public class Bp14 {
         System.out.print("Final Salary is : ");
         System.out.println(res2);
         
-
+        sc.close();
         
     }    
 }

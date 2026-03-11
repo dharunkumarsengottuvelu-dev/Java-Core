@@ -40,5 +40,6 @@ public class pb8{
         System.out.println("Total Discount: $"+totaldis);
         System.out.println("Final Total: $"+(total-totaldis));
         System.out.println("Savings: "+(float)sav);
+        sc.close();
     }
 }
