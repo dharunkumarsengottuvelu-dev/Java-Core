@@ -18,8 +18,7 @@ public class Op5 {
 
         }else{
 
-            System.out.println("Loan Rejected");
-
+            System.out.println("Loan Rejected");
         }
 
         sc.close();
