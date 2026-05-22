@@ -6,8 +6,7 @@ public class Op12 {
         int file = sc.nextInt();
         int compression = sc.nextInt();
         int size = file >> compression;
-        System.out.println("Copressed Size = "+ size);
-
+        System.out.println("Copressed Size = "+ size);
         sc.close();
     }
 }
